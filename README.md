@@ -8,3 +8,10 @@ This command is used to clone a website in your local system with all it's files
 ## Compiling Markdown file
 This command is used the view the .md file in the browser<br>
 ``` grip -b file.md ```
+
+## Connecting to Wireguard VPN
+This command is used to create connection using wireguard VPN to access INTRANET<br>
+``` sudo wg-quick up wg0 ```
+<br>
+This command is used to close connection in wireguard VPN<br> 
+```  sudo wg-quick down wg0 ```<br>
