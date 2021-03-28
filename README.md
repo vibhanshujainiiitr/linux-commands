@@ -15,3 +15,8 @@ This command is used to create connection using wireguard VPN to access INTRANET
 <br>
 This command is used to close connection in wireguard VPN<br> 
 ```  sudo wg-quick down wg0 ```<br>
+
+# Arch Linux
+
+## Installing from .tar
+``` sudo pacman -U name.tar.*```
