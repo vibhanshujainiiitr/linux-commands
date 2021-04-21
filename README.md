@@ -20,3 +20,6 @@ This command is used to close connection in wireguard VPN<br>
 
 ## Installing from .tar
 ``` sudo pacman -U name.tar.*```
+
+## Adding ssh key to agent in Fish
+``` eval 'ssh-agent -s'```
